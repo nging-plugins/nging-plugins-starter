@@ -3,19 +3,19 @@ package forum
 import (
 	"github.com/coscms/webcore/library/module"
 
-	"github.com/nging-plugins/forum/application/handler"
-	"github.com/nging-plugins/forum/application/library/setup"
+	"github.com/nging-plugins/nging-plugins-starter/application/handler"
+	"github.com/nging-plugins/nging-plugins-starter/application/library/setup"
 )
 
-const ID = `forum`
+const ID = `nging-plugins-starter`
 
 var Module = module.Module{
-	Startup: ID,
+	//Startup: ID,
 	TemplatePath: map[string]string{
-		ID: `forum/template/backend`,
+		ID: `nging-plugins-starter/template/backend`,
 	},
 	AssetsPath: []string{
-		`forum/public/assets`,
+		`nging-plugins-starter/public/assets`,
 	},
 	SQLCollection: setup.RegisterSQL,
 	//Dashboard:     RegisterDashboard,

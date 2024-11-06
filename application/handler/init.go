@@ -2,8 +2,8 @@ package handler
 
 import (
 	"github.com/coscms/webcore/library/module"
-	"github.com/nging-plugins/forum/application/handler/backend"
-	"github.com/nging-plugins/forum/application/handler/frontend"
+	"github.com/nging-plugins/nging-plugins-starter/application/handler/backend"
+	"github.com/nging-plugins/nging-plugins-starter/application/handler/frontend"
 )
 
 func RegisterRoute(r module.Router) {
