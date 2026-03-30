@@ -6,7 +6,7 @@ import (
 )
 
 func RegisterRoute(r module.Router) {
-	r.Frontend().RegisterToGroup(`/forum`, registerRoute)
+	r.Frontend().RegisterToGroup(`/nging-plugins-starter`, registerRoute)
 }
 
 func registerRoute(g echo.RouteRegister) {

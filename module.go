@@ -1,4 +1,4 @@
-package forum
+package ngingpluginsstarter
 
 import (
 	"github.com/coscms/webcore/library/module"

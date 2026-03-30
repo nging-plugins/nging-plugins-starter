@@ -10,7 +10,7 @@ func RegisterNavigate(nc module.Navigate) {
 }
 
 func RegisterRoute(r module.Router) {
-	r.Backend().RegisterToGroup(`/forum`, registerRoute)
+	r.Backend().RegisterToGroup(`/nging-plugins-starter`, registerRoute)
 }
 
 func registerRoute(g echo.RouteRegister) {

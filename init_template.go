@@ -1,6 +1,6 @@
 //go:build embedNgingPluginTemplate
 
-package forum
+package ngingpluginsstarter
 
 import (
 	"embed"
